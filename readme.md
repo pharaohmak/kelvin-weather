@@ -1,10 +1,16 @@
-# Kelvin Weather
+# Hat Finder Game
 
-Deep in his mountain-side meteorology lab, the mad scientist Kelvin has mastered weather prediction.
+This project is a simple browser-based game where the player navigates through a field to find a hat while avoiding holes. The game is implemented in JavaScript and updates the game board dynamically on a webpage.
 
-Recently, Kelvin began publishing his weather forecasts on his website. However there’s a problem: All of his forecasts describe the temperature in Kelvin.
+## Project Description
 
-With our knowledge of JavaScript, let’s convert Kelvin to Celsius, then to Fahrenheit.
+The Hat Finder Game involves a player starting at a random position on a field. The objective is to navigate through the field and find the hat (`🎩`) while avoiding holes (`O`). The player's path is marked with `*` and the rest of the field is filled with `░`. The game provides an option to play in a harder mode where additional holes are added to the field.
 
-Kelvin, Celsius, and Fahrenheit thermometers
-For example, 283 K converts to 10 °C which converts to 50 °F.
+## Installation
+
+To run this project, simply clone the repository and open the `index.html` file in your web browser.
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+open index.html
